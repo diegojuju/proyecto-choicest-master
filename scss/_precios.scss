@@ -1,0 +1,114 @@
+/* Precios*/
+
+.seccion.seccion--pagos {
+    background-color: #EBEBEB;
+    height: auto;
+    color: rgb(243, 18, 123);
+    }
+    
+    .payment h3, .payment a {
+    color: #000;
+    }
+    
+    .payment {
+    flex-basis: 25%;
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    }
+    
+    .payment.payment--more {
+    flex-basis: 0;
+    flex-grow: 0;
+    }
+    
+    .payments {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1rem;
+    }  
+    .card {
+      width: 300px;
+      background-color: #eed8ea;
+      color: #000;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      }
+      
+      .card__container-img {
+      
+      overflow: hidden;
+      width: auto;
+      height: 300px;
+      }
+      .card__container1-img {
+      
+      overflow: hidden;
+      width: auto;
+      height: 150px;
+      }
+      
+      .card__img {
+      width: 100%;
+      object-fit: cover;
+      transition: all 1s;
+      }
+      
+      .card__container-img:hover img {
+      transform: scale(1.2);
+      }
+      .card-img {
+      width: 100px;
+      color: #b7c76e;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      
+      }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+    }
+    .card__container-body {
+      padding: 1rem;
+      }
+  
+    .contenedor {
+      background-color: transparent;
+      max-width: 100%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  
+  .listaTabla {
+    list-style-type: decimal;
+    font-size: 10pt;
+    font-family: Verdana, Tahoma, sans-serif;
+  
+  }
+  .flex-center, .flex-strech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .flex-strech {
+    align-items: stretch;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .alineaCentro {
+    text-align: center;
+    }

@@ -1,0 +1,81 @@
+ /* contacto*/
+ .sectionIndex3{
+    width: 100%;
+    background-image: url(https://www.wallpapertip.com/wmimgs/3-36303_multi-color-backgrounds-hd.jpg);
+
+    background-size:cover;
+    background-attachment: fixed; 
+    }
+    .contenedor {
+        background-color: transparent;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+      
+.listaTabla {
+    list-style-type: decimal;
+    font-size: 10pt;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  
+  .flex-center, .flex-strech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .flex-strech {
+    align-items: stretch;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .alineaCentro {
+    text-align: center;
+  }
+ .form-label{
+    color: #120399;
+}
+.form-control {
+    box-shadow: 0px 0px 6px 1px #b6cece;
+}
+.form-select {
+    box-shadow: 0px 0px 6px 1px #b6cece;
+}
+
+
+.form-check .form-check-input {
+     float: none;
+}
+.form-check {    
+    text-align: center;
+    color: whitesmoke;
+}
+.btn-primary {
+    color: #000;
+    font-weight: 800;
+    background-color: #120399;
+    border-color: #ff0a99;
+    }
+
+.btn-primary:hover {
+    color: #ff0000;
+    font-weight: 800;
+    background-color: #000;
+    border-color: #ff0a99;    
+       
+}
+
+.botones{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+    

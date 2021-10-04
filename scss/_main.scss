@@ -1,0 +1,33 @@
+@import 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Inicializa  formato navegador*/
+}
+body{
+    font-family: 'Spectral SC', serif;
+    background-color: #aeafaf ;
+    color:#1B2631;
+    /*Color de fondo Body y color texto*/
+}
+
+/* Titulos main */
+.h2Titulo {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #120399;
+    font-weight: lighter;
+    font-weight: bolder;
+
+    /*formato H2 por clase*/
+    background-image:linear-gradient(360deg, rgba(233,233,233,1) 12%, rgba(249,89,184,0.49933476808692223) 34%, rgba(115,210,49,0.048354375930059534) 55%, rgba(236,234,237,0.8578781854538691) 80%);
+    text-transform: uppercase;
+    word-spacing: 3px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  
