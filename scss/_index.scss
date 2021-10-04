@@ -205,8 +205,8 @@ $index: (
     testimonios_pricipal1: "https://images.pexels.com/photos/6347901/pexels-photo-6347901.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 ); 
 
-@each $novedad, $valor in $index {
-    .divDestacados__#{$novedad} {
+@each $testimonios, $valor in $index {
+    .divDestacados__#{$testimonios} {
         background-image: url($valor);
         height: 300px;
         width: 300px;
@@ -221,13 +221,13 @@ $index: (
 
 
 $indexHover:( 
-testimonisos: testimonios,
+testimonios: testimonios,
 testimonios_principal: testimonios_principal,
 testimonios_pricipal1: testimonios_pricipal1,
 );
 
-@each $novedad, $valor in $indexHover {
-    .divDestacados__#{$novedad}:hover{
+@each $testimonios, $valor in $indexHover {
+    .divDestacados__#{$testimonios}:hover{
     color: #ff0a99; 
     transform: scale(1.1);
     box-shadow: 3px 3px 10px black; 

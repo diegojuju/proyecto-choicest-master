@@ -15,15 +15,16 @@ body {
 /* Titulos main */
 .h2Titulo {
   width: 100%;
-  font-size: 35px;
+  font-size: 25px;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #120399;
   font-weight: lighter;
   font-weight: bolder;
   /*formato H2 por clase*/
-  background-image: linear-gradient(360deg, #e9e9e9 12%, rgba(249, 89, 184, 0.499335) 34%, rgba(115, 210, 49, 0.0483544) 55%, rgba(236, 234, 237, 0.857878) 80%);
+  background-image: linear-gradient(to right, #00416a, #e4e5e6);
   text-transform: uppercase;
+  font-weight: 600;
   word-spacing: 3px;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -75,13 +76,13 @@ body {
 
 /* Hero */
 .hero__h1 {
-  font-family: 'Bodoni Moda', serif;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 82px;
+  font-family: 'EB Garamond', serif;
+  font-size: 70px;
   font-weight: bold;
+  font-weight: 700;
   text-align: center;
-  letter-spacing: 3px;
-  color: #120399;
+  letter-spacing: 2px;
+  color: #996a03;
   width: 100%;
 }
 
@@ -153,11 +154,12 @@ body {
 /* footer*/
 .destacadoFooter {
   letter-spacing: 1px;
-  background: linear-gradient(360deg, #e9e9e9 12%, rgba(249, 89, 184, 0.499335) 34%, rgba(115, 210, 49, 0.0483544) 55%, rgba(236, 234, 237, 0.857878) 80%);
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
   background-color: #60bfff;
   /*formato texto destacado de etiqueta */
-  color: #00ff73;
+  color: #ff0a99;
   font-weight: bold;
+  font-weight: 600;
   font-style: italic;
   margin-top: 1rem;
   padding: 1rem;
@@ -171,7 +173,9 @@ footer p {
   text-align: center;
   margin-bottom: 1rem;
   color: #fff;
-  background-color: black;
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  background-color: #60bfff;
+  margin-bottom: 0;
 }
 
 .destacado {
@@ -513,7 +517,7 @@ th.bg-dark {
   background-size: cover;
 }
 
-.divDestacados__testimonisos:hover {
+.divDestacados__testimonios:hover {
   color: #ff0a99;
   transform: scale(1.1);
   box-shadow: 3px 3px 10px black;
@@ -881,7 +885,7 @@ th.bg-dark {
 }
 
 .btn-primary:hover {
-  color: #ff0000;
+  color: #ff0a99;
   font-weight: 800;
   background-color: #000;
   border-color: #ff0a99;
@@ -899,7 +903,7 @@ th.bg-dark {
 /*********************************************/
 @media (max-width: 768px) {
   .hero__h1 {
-    font-size: 35px;
+    font-size: 70px;
     text-align: center;
   }
   .hero__content {
