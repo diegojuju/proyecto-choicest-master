@@ -670,6 +670,7 @@ th.bg-dark {
   display: flex;
   justify-content: center;
   max-width: 1000px;
+  margin: 0 auto;
   flex-direction: row;
 }
 

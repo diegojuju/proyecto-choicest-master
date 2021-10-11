@@ -1,12 +1,13 @@
 
     /* Soluciones y test */
 
-.divtest {
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
-    flex-direction: row;
-  }
+    .divtest {
+      display: flex;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      flex-direction: row;
+    }
   
   
   .divtest__h3 {
