@@ -609,6 +609,11 @@ th.bg-dark {
   color: #000;
 }
 
+.movilmetodopago {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .payment {
   flex-basis: 25%;
   flex-grow: 1;
@@ -668,7 +673,7 @@ th.bg-dark {
   position: relative;
 }
 
-.flex {
+.carta {
   display: flex;
   justify-content: space-between;
 }
@@ -714,7 +719,6 @@ th.bg-dark {
   display: flex;
   justify-content: center;
   max-width: 1000px;
-  margin: 0 auto;
   flex-direction: row;
 }
 
@@ -909,11 +913,21 @@ th.bg-dark {
 /*********************************************/
 /**********   @MEdia *************************/
 /*********************************************/
-@media (max-width: 768px) {
-  .card_novedades {
-    width: 100%;
+@media (max-width: 1000px) {
+  .card__novedades {
+    width: 45%;
   }
-  .card_center {
+  .carta {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .movilmetodopago {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card_novedades {
     width: 100%;
   }
   .hero__h1 {
@@ -959,6 +973,10 @@ th.bg-dark {
     height: 200px;
     margin: 0 auto;
     overflow-x: auto;
+  }
+  .conteiner-footer-all {
+    width: 100%;
+    max-width: 1200px;
   }
   .divFfooter {
     display: flex;

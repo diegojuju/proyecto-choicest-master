@@ -9,7 +9,12 @@
     .payment h3, .payment a {
     color: #000;
     }
-    
+
+    .movilmetodopago{
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
     .payment {
     flex-basis: 25%;
     flex-grow: 1;
@@ -72,10 +77,10 @@
       
       }
   
-  .flex {
+  .carta{
     display: flex;
     justify-content: space-between;
-    
+
     }
    
     .card__container-body {

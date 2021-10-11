@@ -2,15 +2,26 @@
   /**********   @MEdia *************************/
   /*********************************************/
 
+  @media (max-width: 1000px) {
+    .card__novedades {
+      width: 45%;
+    }
+    .carta {
+      justify-content: space-around;
+    }
+  }
+
   @media (max-width: 768px) {
 
+    .movilmetodopago{
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .card_novedades{
         width: 100%;
     }
-    .card_center{
-        width: 100%;
-    }
-    .hero__h1{            
+     .hero__h1{            
             font-size: 35px;
             text-align: center;
         }
@@ -75,8 +86,11 @@
 
 }
 
-
-
+.conteiner-footer-all{
+    width: 100%;
+    max-width: 1200px;
+  }
+  
  .divFfooter{
     display: flex;
     flex-direction: column;
