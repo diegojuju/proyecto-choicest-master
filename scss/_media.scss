@@ -86,22 +86,7 @@
 
 }
 
-.conteiner-footer-all{
-    width: 100%;
-    max-width: 1200px;
-  }
-  
- .divFfooter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  justify-items: center;
-  text-align: center;
- }
 
- .nada{
-     display: none;
- }
  .tituloH3test{
 
     margin: 2rem ;
@@ -321,4 +306,23 @@
     text-align: center;
 
 }
+/*footer*/
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+    @media (max-width:767px) {
+        .footer-dark .item.text {
+          margin-bottom:0;
+        }
+      }
+  }
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
 }
